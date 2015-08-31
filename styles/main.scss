@@ -1,0 +1,897 @@
+$navFont: 2em;
+
+@media screen and (max-width: 29.875em) {
+
+
+h1 {
+	box-sizing: border-box;
+	text-align: center;
+	background: white;
+	color: black;
+    height: 1.5em;
+    word-spacing: 1em;
+    font-size: 1em;
+	
+}
+
+.background {
+	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+	height: 3em;
+	color: white;
+	padding-top: 1.5em;
+	text-align: center;
+	font-size: 4em;
+	padding-bottom: 1.5em;
+}
+
+.green  {
+	background: #519251;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.personal {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.five {
+	font-size: 10em;
+}
+
+.permonth {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+.grey {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.white {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.blue  {
+	background: #2A4A81;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.small {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.twenty {
+	font-size: 10em;
+}
+
+.per {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+/*.grey {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}*/
+
+.black  {
+	background: black;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.enterprise {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.forty {
+	font-size: 10em;
+}
+
+.month {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+/*.grey {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}*/
+
+
+.big {
+	height: 130em;
+	background: white;
+}
+
+.font1 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font2 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font3 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font4 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font5 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font6 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font7 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font8 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.black1 {
+	height: 4.75em;
+	background: black;
+	color: grey;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 2em;
+}
+
+.black1 span {
+color: white;
+text-decoration: underline;
+}
+}
+
+
+@media screen and (max-width: 47.9375em) {
+	
+	.background {
+	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+	height: 3em;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 4em;
+	padding-bottom: 1.5em;
+}
+
+.green  {
+	background: #519251;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.personal {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.five {
+	font-size: 10em;
+}
+
+.permonth {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+.grey {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.white {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.blue  {
+	background: #2A4A81;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.small {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.twenty {
+	font-size: 10em;
+}
+
+.per {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+
+.black  {
+	background: black;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.enterprise {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.forty {
+	font-size: 10em;
+}
+
+.month {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+
+.big {
+	height: 130em;
+	background: white;
+}
+
+.font1 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font2 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font3 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font4 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font5 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font6 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font7 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font8 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.black1 {
+	height: 4.75em;
+	background: black;
+	color: grey;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 2em;
+}
+
+.black1 span {
+color: white;
+text-decoration: underline;
+}
+
+}
+
+@media screen and (max-width: 61.125em) and (min-width: 47.9375em){
+
+.background {
+	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+	height: 3em;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 4em;
+	padding-bottom: 1.5em;
+}
+
+.green  {
+	background: #519251;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.personal {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.five {
+	font-size: 10em;
+}
+
+.permonth {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+.grey {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.white {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.blue  {
+	background: #2A4A81;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.small {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.twenty {
+	font-size: 10em;
+}
+
+.per {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+
+.black  {
+	background: black;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.pricing-box {
+	float: left;
+	display: inline-block;
+	width: 33%;
+	border: 0.5em solid #fff;
+	box-sizing: border-box;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+
+.enterprise {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.forty {
+	font-size: 10em;
+}
+
+.month {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+
+.big {
+	height: 130em;
+	background: white;
+}
+
+.font1 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font2 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font3 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font4 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font5 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font6 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font7 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font8 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.black1 {
+	height: 4.75em;
+	background: black;
+	color: grey;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 2em;
+}
+
+.black1 span {
+color: white;
+text-decoration: underline;
+}
+
+.text {
+	float: left;
+	width: 50%;
+	height: 35em;
+
+}
+.alltext{
+	overflow: hidden;
+}
+
+}
+	
+@media screen and (min-width: 61.1875em) {
+	
+.background {
+	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+	height: 2.5em;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 4em;
+	padding-bottom: 1.5em;
+}
+
+.green  {
+	background: #519251;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.personal {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.five {
+	font-size: 10em;
+}
+
+.permonth {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+.grey {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.white {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.blue  {
+	background: #2A4A81;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.small {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.twenty {
+	font-size: 10em;
+}
+
+.per {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+
+.black  {
+	background: black;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.pricing-box {
+	float: left;
+	display: inline-block;
+	width: 33%;
+	border: 1em solid #fff;
+	box-sizing: border-box;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+
+.enterprise {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.forty {
+	font-size: 10em;
+}
+
+.month {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+
+.big {
+	height: 130em;
+	background: white;
+}
+
+.font1 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font2 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font3 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font4 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font5 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font6 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font7 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font8 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.black1 {
+	height: 4.75em;
+	background: black;
+	color: grey;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 2em;
+}
+
+.black1 span {
+color: white;
+text-decoration: underline;
+}
+
+.text {
+	float: left;
+	width: 50%;
+	height: 25em;
+	font-size: 0.7em;
+}
+
+.alltext {
+	overflow: hidden;
+	border: 1em solid white;
+}
+
+}
