@@ -1,5 +1,12 @@
 $navFont: 2em;
 
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+
 @media screen and (max-width: 29.875em) {
 
 
@@ -12,6 +19,29 @@ h1 {
     word-spacing: 1em;
     font-size: 1em;
 	
+}
+
+.logo {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;
+}
+
+.home {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;	
+}
+
+.pricing {
+	font-weight: lighter;
+	margin-right: 1em;
+}
+
+.contact {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;
 }
 
 .background {
@@ -62,13 +92,79 @@ h1 {
 	text-align: center;
 }
 
-.white {
+.grey1 {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey1 div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.grey2 {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey2 div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.white2 {
 	height: 9.75em;
 	background: white;
 	border: solid grey 1px;
 }
 
-.white div {
+.white2 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.white3 {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white3 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.white4 {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white4 div {
 	color: black;
 	text-align: center;
 	font-weight: bold;
@@ -167,7 +263,6 @@ h1 {
 	padding-top: 7em;
 	font-size: 2em;
 	word-spacing: 0.5em;
-
 }
 
 .font2 {
@@ -236,216 +331,15 @@ h1 {
 }
 
 .black1 span {
-color: white;
-text-decoration: underline;
+	color: white;
+	text-decoration: underline;
 }
+
 }
 
 
 @media screen and (max-width: 47.9375em) {
 	
-	.background {
-	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
-	height: 3em;
-	color: white;
-	padding-top: 2em;
-	padding-bottom: 2em;
-	text-align: center;
-	font-size: 4em;
-	padding-bottom: 1.5em;
-}
-
-.green  {
-	background: #519251;
-	height: 20em;
-	margin-top: 3em;
-	text-align: center;
-	color: white;
-	padding-top: 4em;
-}
-
-.personal {
-	font-size: 1.5em;
-	padding-bottom: 1em;
-}
-
-.five {
-	font-size: 10em;
-}
-
-.permonth {
-	font-size: 1.5em;
-	padding-top: 1em;
-}
-
-.grey {
-	height: 19.5em;
-	background: #F7F7F7;
-	font-size: 1.5em;
-}
-
-.grey div{
-	font-size: 1em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	color: grey;
-	border: solid grey 1px;
-	text-align: center;
-}
-
-.white {
-	height: 9.75em;
-	background: white;
-	border: solid grey 1px;
-}
-
-.white div {
-	color: black;
-	text-align: center;
-	font-weight: bold;
-	font-size: 2em;
-	width: 4em;
-	margin: 0 auto;
-	border: solid grey 1px;
-	border-radius: 1em;
-	margin-top: 2em;
-}
-
-.blue  {
-	background: #2A4A81;
-	height: 20em;
-	margin-top: 3em;
-	text-align: center;
-	color: white;
-	padding-top: 4em;
-}
-
-.small {
-	font-size: 1.5em;
-	padding-bottom: 1em;
-}
-
-.twenty {
-	font-size: 10em;
-}
-
-.per {
-	font-size: 1.5em;
-	padding-top: 1em;
-}
-
-
-.black  {
-	background: black;
-	height: 20em;
-	margin-top: 3em;
-	text-align: center;
-	color: white;
-	padding-top: 4em;
-}
-
-.enterprise {
-	font-size: 1.5em;
-	padding-bottom: 1em;
-}
-
-.forty {
-	font-size: 10em;
-}
-
-.month {
-	font-size: 1.5em;
-	padding-top: 1em;
-}
-
-
-.big {
-	height: 130em;
-	background: white;
-}
-
-.font1 {
-	text-align: center;
-	padding-top: 7em;
-	font-size: 2em;
-	word-spacing: 0.5em;
-
-}
-
-.font2 {
-	text-align: center;
-	padding-top: 2em;
-	font-size: 1.5em;
-	color: grey;
-
-}
-
-.font3 {
-	text-align: center;
-	padding-top: 7em;
-	font-size: 2em;
-	word-spacing: 0.5em;
-
-}
-
-.font4 {
-	text-align: center;
-	padding-top: 2em;
-	font-size: 1.5em;
-	color: grey;
-
-}
-
-.font5 {
-	text-align: center;
-	padding-top: 7em;
-	font-size: 2em;
-	word-spacing: 0.5em;
-
-}
-
-.font6 {
-	text-align: center;
-	padding-top: 2em;
-	font-size: 1.5em;
-	color: grey;
-
-}
-
-.font7 {
-	text-align: center;
-	padding-top: 7em;
-	font-size: 2em;
-	word-spacing: 0.5em;
-
-}
-
-.font8 {
-	text-align: center;
-	padding-top: 2em;
-	font-size: 1.5em;
-	color: grey;
-
-}
-
-.black1 {
-	height: 4.75em;
-	background: black;
-	color: grey;
-	text-align: center;
-	font-size: 1.5em;
-	padding-top: 2em;
-}
-
-.black1 span {
-color: white;
-text-decoration: underline;
-}
-
-}
-
-@media screen and (max-width: 61.125em) and (min-width: 47.9375em){
-
 .background {
 	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
 	height: 3em;
@@ -475,6 +369,30 @@ text-decoration: underline;
 	font-size: 10em;
 }
 
+.logo {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;
+}
+
+.home {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;	
+}
+
+.pricing {
+	font-weight: lighter; 
+	margin-right: 1em;
+}
+
+.contact {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;
+}
+
+
 .permonth {
 	font-size: 1.5em;
 	padding-top: 1em;
@@ -495,13 +413,370 @@ text-decoration: underline;
 	text-align: center;
 }
 
-.white {
+.grey1 {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey1 div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.grey2 {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey2 div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.white2 {
 	height: 9.75em;
 	background: white;
 	border: solid grey 1px;
 }
 
-.white div {
+.white2 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.white3 {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white3 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.white4 {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white4 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.blue  {
+	background: #2A4A81;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.small {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.twenty {
+	font-size: 10em;
+}
+
+.per {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+
+.black  {
+	background: black;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.enterprise {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.forty {
+	font-size: 10em;
+}
+
+.month {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+
+.big {
+	height: 130em;
+	background: white;
+}
+
+.font1 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font2 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font3 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font4 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font5 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font6 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+
+}
+
+.font7 {
+	text-align: center;
+	padding-top: 7em;
+	font-size: 2em;
+	word-spacing: 0.5em;
+
+}
+
+.font8 {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: grey;
+	padding-bottom: 1em;
+}
+
+.black1 {
+	height: 4.75em;
+	background: black;
+	color: grey;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 2em;
+}
+
+	.black1 span {
+	color: white;
+	text-decoration: underline;
+	}
+
+}
+
+@media screen and (max-width: 61.125em) and (min-width: 47.9375em){
+
+.background {
+	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+	height: 3em;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 4em;
+	padding-bottom: 1.5em;
+}
+
+.logo {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;
+}
+
+.home {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;	
+}
+
+.pricing {
+	font-weight: lighter;
+	margin-right: 1em;
+}
+
+.contact {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;
+}
+
+.green  {
+	background: #519251;
+	height: 20em;
+	margin-top: 3em;
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+
+.personal {
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.five {
+	font-size: 10em;
+}
+
+.permonth {
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+.grey {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.grey1 {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey1 div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.grey2 {
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey2 div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.white2 {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white2 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.white3 {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white3 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.white4 {
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white4 div {
 	color: black;
 	text-align: center;
 	font-weight: bold;
@@ -653,8 +928,8 @@ text-decoration: underline;
 }
 
 .black1 span {
-color: white;
-text-decoration: underline;
+	color: white;
+	text-decoration: underline;
 }
 
 .text {
@@ -683,12 +958,36 @@ text-decoration: underline;
 }
 
 .green  {
+	margin-left: 3.5em;
 	background: #519251;
 	height: 20em;
 	margin-top: 3em;
 	text-align: center;
 	color: white;
 	padding-top: 4em;
+}
+
+.logo {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;
+}
+
+.home {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;	
+}
+
+.pricing {
+	font-weight: lighter;
+	margin-right: 1em;
+}
+
+.contact {
+	font-weight: lighter;
+	margin-right: 1em;
+	color: #9C9C9C;
 }
 
 .personal {
@@ -707,6 +1006,7 @@ text-decoration: underline;
 
 .grey {
 	height: 19.5em;
+	margin-left: 2.35em;
 	background: #F7F7F7;
 	font-size: 1.5em;
 }
@@ -720,13 +1020,86 @@ text-decoration: underline;
 	text-align: center;
 }
 
-.white {
+.grey1 {
+	margin-right: 2.35em;
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey1 div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.grey2 {
+	margin-right: 5em;
+	margin-left: -2.67em;
+	height: 19.5em;
+	background: #F7F7F7;
+	font-size: 1.5em;
+}
+
+.grey2 div{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: grey;
+	border: solid grey 1px;
+	text-align: center;
+}
+
+.white2 {
+	margin-left: 3.5em;
 	height: 9.75em;
 	background: white;
 	border: solid grey 1px;
 }
 
-.white div {
+.white2 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.white3 {
+	margin-right: 3.5em;
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white3 div {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	width: 4em;
+	margin: 0 auto;
+	border: solid grey 1px;
+	border-radius: 1em;
+	margin-top: 2em;
+}
+
+.white4 {
+	margin-right: 7.5em;
+	margin-left: -4em;
+	height: 9.75em;
+	background: white;
+	border: solid grey 1px;
+}
+
+.white4 div {
 	color: black;
 	text-align: center;
 	font-weight: bold;
@@ -739,6 +1112,7 @@ text-decoration: underline;
 }
 
 .blue  {
+	margin-right: 3.5em;
 	background: #2A4A81;
 	height: 20em;
 	margin-top: 3em;
@@ -763,6 +1137,8 @@ text-decoration: underline;
 
 
 .black  {
+	margin-right: 7.5em;
+	margin-left: -4em;
 	background: black;
 	height: 20em;
 	margin-top: 3em;
@@ -815,6 +1191,8 @@ text-decoration: underline;
 .font2 {
 	text-align: center;
 	padding-top: 2em;
+	padding-left: 8.5em;
+	padding-right: 1em;
 	font-size: 1.5em;
 	color: grey;
 
@@ -832,6 +1210,8 @@ text-decoration: underline;
 	text-align: center;
 	padding-top: 2em;
 	font-size: 1.5em;
+	padding-left: 5.5em;
+	padding-right: 1em;
 	color: grey;
 
 }
@@ -848,6 +1228,8 @@ text-decoration: underline;
 	text-align: center;
 	padding-top: 2em;
 	font-size: 1.5em;
+	padding-left: 6em;
+	padding-right: 1em;
 	color: grey;
 
 }
@@ -864,8 +1246,9 @@ text-decoration: underline;
 	text-align: center;
 	padding-top: 2em;
 	font-size: 1.5em;
+	padding-left: 5.5em;
+	padding-right: 1em;
 	color: grey;
-
 }
 
 .black1 {
@@ -878,8 +1261,8 @@ text-decoration: underline;
 }
 
 .black1 span {
-color: white;
-text-decoration: underline;
+	color: white;
+	text-decoration: underline;
 }
 
 .text {
@@ -892,6 +1275,8 @@ text-decoration: underline;
 .alltext {
 	overflow: hidden;
 	border: 1em solid white;
+}
+
 }
 
 }

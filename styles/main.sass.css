@@ -1,76 +1,12 @@
-@media screen and (max-width: 29.875em) {
-  h1 {
-    box-sizing: border-box;
-    text-align: center;
-    background: white;
-    color: black;
-    height: 1.5em;
-    word-spacing: 1em;
-    font-size: 1em; }
-  .background {
-    background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
-    height: 3em;
-    color: white;
-    padding-top: 1.5em;
-    text-align: center;
-    font-size: 4em;
-    padding-bottom: 1.5em; }
-  .green {
-    background: #519251;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .personal {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .five {
-    font-size: 10em; }
-  .permonth {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .grey {
-    height: 19.5em;
-    background: #F7F7F7;
-    font-size: 1.5em; }
-  .grey div {
-    font-size: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: grey;
-    border: solid grey 1px;
-    text-align: center; }
-  .white {
-    height: 9.75em;
-    background: white;
-    border: solid grey 1px; }
-  .white div {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
-    width: 4em;
-    margin: 0 auto;
-    border: solid grey 1px;
-    border-radius: 1em;
-    margin-top: 2em; }
-  .blue {
-    background: #2A4A81;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .small {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .twenty {
-    font-size: 10em; }
-  .per {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  /*.grey {
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+  @media screen and (max-width: 29.875em) {
+    body {
+      /*.grey {
 	height: 19.5em;
 	background: #F7F7F7;
 	font-size: 1.5em;
@@ -84,22 +20,7 @@
 	border: solid grey 1px;
 	text-align: center;
 }*/
-  .black {
-    background: black;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .enterprise {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .forty {
-    font-size: 10em; }
-  .month {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  /*.grey {
+      /*.grey {
 	height: 19.5em;
 	background: #F7F7F7;
 	font-size: 1.5em;
@@ -112,489 +33,853 @@
 	color: grey;
 	border: solid grey 1px;
 	text-align: center;
-}*/
-  .big {
-    height: 130em;
-    background: white; }
-  .font1 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font2 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font3 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font4 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font5 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font6 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font7 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font8 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .black1 {
-    height: 4.75em;
-    background: black;
-    color: grey;
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 2em; }
-  .black1 span {
-    color: white;
-    text-decoration: underline; } }
-
-@media screen and (max-width: 47.9375em) {
-  .background {
-    background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
-    height: 3em;
-    color: white;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: center;
-    font-size: 4em;
-    padding-bottom: 1.5em; }
-  .green {
-    background: #519251;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .personal {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .five {
-    font-size: 10em; }
-  .permonth {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .grey {
-    height: 19.5em;
-    background: #F7F7F7;
-    font-size: 1.5em; }
-  .grey div {
-    font-size: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: grey;
-    border: solid grey 1px;
-    text-align: center; }
-  .white {
-    height: 9.75em;
-    background: white;
-    border: solid grey 1px; }
-  .white div {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
-    width: 4em;
-    margin: 0 auto;
-    border: solid grey 1px;
-    border-radius: 1em;
-    margin-top: 2em; }
-  .blue {
-    background: #2A4A81;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .small {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .twenty {
-    font-size: 10em; }
-  .per {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .black {
-    background: black;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .enterprise {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .forty {
-    font-size: 10em; }
-  .month {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .big {
-    height: 130em;
-    background: white; }
-  .font1 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font2 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font3 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font4 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font5 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font6 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font7 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font8 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .black1 {
-    height: 4.75em;
-    background: black;
-    color: grey;
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 2em; }
-  .black1 span {
-    color: white;
-    text-decoration: underline; } }
-
-@media screen and (max-width: 61.125em) and (min-width: 47.9375em) {
-  .background {
-    background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
-    height: 3em;
-    color: white;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: center;
-    font-size: 4em;
-    padding-bottom: 1.5em; }
-  .green {
-    background: #519251;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .personal {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .five {
-    font-size: 10em; }
-  .permonth {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .grey {
-    height: 19.5em;
-    background: #F7F7F7;
-    font-size: 1.5em; }
-  .grey div {
-    font-size: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: grey;
-    border: solid grey 1px;
-    text-align: center; }
-  .white {
-    height: 9.75em;
-    background: white;
-    border: solid grey 1px; }
-  .white div {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
-    width: 4em;
-    margin: 0 auto;
-    border: solid grey 1px;
-    border-radius: 1em;
-    margin-top: 2em; }
-  .blue {
-    background: #2A4A81;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .small {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .twenty {
-    font-size: 10em; }
-  .per {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .black {
-    background: black;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .pricing-box {
-    float: left;
-    display: inline-block;
-    width: 33%;
-    border: 0.5em solid #fff;
-    box-sizing: border-box; }
-  .overflow {
-    overflow: hidden; }
-  .enterprise {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .forty {
-    font-size: 10em; }
-  .month {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .big {
-    height: 130em;
-    background: white; }
-  .font1 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font2 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font3 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font4 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font5 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font6 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font7 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font8 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .black1 {
-    height: 4.75em;
-    background: black;
-    color: grey;
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 2em; }
-  .black1 span {
-    color: white;
-    text-decoration: underline; }
-  .text {
-    float: left;
-    width: 50%;
-    height: 35em; }
-  .alltext {
-    overflow: hidden; } }
-
-@media screen and (min-width: 61.1875em) {
-  .background {
-    background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
-    height: 2.5em;
-    color: white;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: center;
-    font-size: 4em;
-    padding-bottom: 1.5em; }
-  .green {
-    background: #519251;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .personal {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .five {
-    font-size: 10em; }
-  .permonth {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .grey {
-    height: 19.5em;
-    background: #F7F7F7;
-    font-size: 1.5em; }
-  .grey div {
-    font-size: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color: grey;
-    border: solid grey 1px;
-    text-align: center; }
-  .white {
-    height: 9.75em;
-    background: white;
-    border: solid grey 1px; }
-  .white div {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
-    width: 4em;
-    margin: 0 auto;
-    border: solid grey 1px;
-    border-radius: 1em;
-    margin-top: 2em; }
-  .blue {
-    background: #2A4A81;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .small {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .twenty {
-    font-size: 10em; }
-  .per {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .black {
-    background: black;
-    height: 20em;
-    margin-top: 3em;
-    text-align: center;
-    color: white;
-    padding-top: 4em; }
-  .pricing-box {
-    float: left;
-    display: inline-block;
-    width: 33%;
-    border: 1em solid #fff;
-    box-sizing: border-box; }
-  .overflow {
-    overflow: hidden; }
-  .enterprise {
-    font-size: 1.5em;
-    padding-bottom: 1em; }
-  .forty {
-    font-size: 10em; }
-  .month {
-    font-size: 1.5em;
-    padding-top: 1em; }
-  .big {
-    height: 130em;
-    background: white; }
-  .font1 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font2 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font3 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font4 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font5 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font6 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .font7 {
-    text-align: center;
-    padding-top: 7em;
-    font-size: 2em;
-    word-spacing: 0.5em; }
-  .font8 {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 1.5em;
-    color: grey; }
-  .black1 {
-    height: 4.75em;
-    background: black;
-    color: grey;
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 2em; }
-  .black1 span {
-    color: white;
-    text-decoration: underline; }
-  .text {
-    float: left;
-    width: 50%;
-    height: 25em;
-    font-size: 0.7em; }
-  .alltext {
-    overflow: hidden;
-    border: 1em solid white; } }
+}*/ }
+      body h1 {
+        box-sizing: border-box;
+        text-align: center;
+        background: white;
+        color: black;
+        height: 1.5em;
+        word-spacing: 1em;
+        font-size: 1em; }
+      body .logo {
+        font-weight: lighter;
+        margin-right: 1em;
+        color: #9C9C9C; }
+      body .home {
+        font-weight: lighter;
+        margin-right: 1em;
+        color: #9C9C9C; }
+      body .pricing {
+        font-weight: lighter;
+        margin-right: 1em; }
+      body .contact {
+        font-weight: lighter;
+        margin-right: 1em;
+        color: #9C9C9C; }
+      body .background {
+        background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+        height: 3em;
+        color: white;
+        padding-top: 1.5em;
+        text-align: center;
+        font-size: 4em;
+        padding-bottom: 1.5em; }
+      body .green {
+        background: #519251;
+        height: 20em;
+        margin-top: 3em;
+        text-align: center;
+        color: white;
+        padding-top: 4em; }
+      body .personal {
+        font-size: 1.5em;
+        padding-bottom: 1em; }
+      body .five {
+        font-size: 10em; }
+      body .permonth {
+        font-size: 1.5em;
+        padding-top: 1em; }
+      body .grey {
+        height: 19.5em;
+        background: #F7F7F7;
+        font-size: 1.5em; }
+      body .grey div {
+        font-size: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        color: grey;
+        border: solid grey 1px;
+        text-align: center; }
+      body .grey1 {
+        height: 19.5em;
+        background: #F7F7F7;
+        font-size: 1.5em; }
+      body .grey1 div {
+        font-size: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        color: grey;
+        border: solid grey 1px;
+        text-align: center; }
+      body .grey2 {
+        height: 19.5em;
+        background: #F7F7F7;
+        font-size: 1.5em; }
+      body .grey2 div {
+        font-size: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        color: grey;
+        border: solid grey 1px;
+        text-align: center; }
+      body .white2 {
+        height: 9.75em;
+        background: white;
+        border: solid grey 1px; }
+      body .white2 div {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+        width: 4em;
+        margin: 0 auto;
+        border: solid grey 1px;
+        border-radius: 1em;
+        margin-top: 2em; }
+      body .white3 {
+        height: 9.75em;
+        background: white;
+        border: solid grey 1px; }
+      body .white3 div {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+        width: 4em;
+        margin: 0 auto;
+        border: solid grey 1px;
+        border-radius: 1em;
+        margin-top: 2em; }
+      body .white4 {
+        height: 9.75em;
+        background: white;
+        border: solid grey 1px; }
+      body .white4 div {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+        width: 4em;
+        margin: 0 auto;
+        border: solid grey 1px;
+        border-radius: 1em;
+        margin-top: 2em; }
+      body .blue {
+        background: #2A4A81;
+        height: 20em;
+        margin-top: 3em;
+        text-align: center;
+        color: white;
+        padding-top: 4em; }
+      body .small {
+        font-size: 1.5em;
+        padding-bottom: 1em; }
+      body .twenty {
+        font-size: 10em; }
+      body .per {
+        font-size: 1.5em;
+        padding-top: 1em; }
+      body .black {
+        background: black;
+        height: 20em;
+        margin-top: 3em;
+        text-align: center;
+        color: white;
+        padding-top: 4em; }
+      body .enterprise {
+        font-size: 1.5em;
+        padding-bottom: 1em; }
+      body .forty {
+        font-size: 10em; }
+      body .month {
+        font-size: 1.5em;
+        padding-top: 1em; }
+      body .big {
+        height: 130em;
+        background: white; }
+      body .font1 {
+        text-align: center;
+        padding-top: 7em;
+        font-size: 2em;
+        word-spacing: 0.5em; }
+      body .font2 {
+        text-align: center;
+        padding-top: 2em;
+        font-size: 1.5em;
+        color: grey; }
+      body .font3 {
+        text-align: center;
+        padding-top: 7em;
+        font-size: 2em;
+        word-spacing: 0.5em; }
+      body .font4 {
+        text-align: center;
+        padding-top: 2em;
+        font-size: 1.5em;
+        color: grey; }
+      body .font5 {
+        text-align: center;
+        padding-top: 7em;
+        font-size: 2em;
+        word-spacing: 0.5em; }
+      body .font6 {
+        text-align: center;
+        padding-top: 2em;
+        font-size: 1.5em;
+        color: grey; }
+      body .font7 {
+        text-align: center;
+        padding-top: 7em;
+        font-size: 2em;
+        word-spacing: 0.5em; }
+      body .font8 {
+        text-align: center;
+        padding-top: 2em;
+        font-size: 1.5em;
+        color: grey; }
+      body .black1 {
+        height: 4.75em;
+        background: black;
+        color: grey;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 2em; }
+      body .black1 span {
+        color: white;
+        text-decoration: underline; } }
+  @media screen and (max-width: 47.9375em) {
+    body .background {
+      background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+      height: 3em;
+      color: white;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      text-align: center;
+      font-size: 4em;
+      padding-bottom: 1.5em; }
+    body .green {
+      background: #519251;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .personal {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .five {
+      font-size: 10em; }
+    body .logo {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .home {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .pricing {
+      font-weight: lighter;
+      margin-right: 1em; }
+    body .contact {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .permonth {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .grey {
+      height: 19.5em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .grey1 {
+      height: 19.5em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey1 div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .grey2 {
+      height: 19.5em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey2 div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .white2 {
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white2 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .white3 {
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white3 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .white4 {
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white4 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .blue {
+      background: #2A4A81;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .small {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .twenty {
+      font-size: 10em; }
+    body .per {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .black {
+      background: black;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .enterprise {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .forty {
+      font-size: 10em; }
+    body .month {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .big {
+      height: 130em;
+      background: white; }
+    body .font1 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font2 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      color: grey; }
+    body .font3 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font4 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      color: grey; }
+    body .font5 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font6 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      color: grey; }
+    body .font7 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font8 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      color: grey;
+      padding-bottom: 1em; }
+    body .black1 {
+      height: 4.75em;
+      background: black;
+      color: grey;
+      text-align: center;
+      font-size: 1.5em;
+      padding-top: 2em; }
+    body .black1 span {
+      color: white;
+      text-decoration: underline; } }
+  @media screen and (max-width: 61.125em) and (min-width: 47.9375em) {
+    body .background {
+      background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+      height: 3em;
+      color: white;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      text-align: center;
+      font-size: 4em;
+      padding-bottom: 1.5em; }
+    body .logo {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .home {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .pricing {
+      font-weight: lighter;
+      margin-right: 1em; }
+    body .contact {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .green {
+      background: #519251;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .personal {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .five {
+      font-size: 10em; }
+    body .permonth {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .grey {
+      height: 19.5em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .grey1 {
+      height: 19.5em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey1 div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .grey2 {
+      height: 19.5em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey2 div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .white2 {
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white2 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .white3 {
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white3 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .white4 {
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white4 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .blue {
+      background: #2A4A81;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .small {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .twenty {
+      font-size: 10em; }
+    body .per {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .black {
+      background: black;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .pricing-box {
+      float: left;
+      display: inline-block;
+      width: 33%;
+      border: 0.5em solid #fff;
+      box-sizing: border-box; }
+    body .overflow {
+      overflow: hidden; }
+    body .enterprise {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .forty {
+      font-size: 10em; }
+    body .month {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .big {
+      height: 130em;
+      background: white; }
+    body .font1 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font2 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      color: grey; }
+    body .font3 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font4 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      color: grey; }
+    body .font5 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font6 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      color: grey; }
+    body .font7 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font8 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      color: grey; }
+    body .black1 {
+      height: 4.75em;
+      background: black;
+      color: grey;
+      text-align: center;
+      font-size: 1.5em;
+      padding-top: 2em; }
+    body .black1 span {
+      color: white;
+      text-decoration: underline; }
+    body .text {
+      float: left;
+      width: 50%;
+      height: 35em; }
+    body .alltext {
+      overflow: hidden; } }
+  @media screen and (min-width: 61.1875em) {
+    body .background {
+      background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true);
+      height: 2.5em;
+      color: white;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      text-align: center;
+      font-size: 4em;
+      padding-bottom: 1.5em; }
+    body .green {
+      margin-left: 3.5em;
+      background: #519251;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .logo {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .home {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .pricing {
+      font-weight: lighter;
+      margin-right: 1em; }
+    body .contact {
+      font-weight: lighter;
+      margin-right: 1em;
+      color: #9C9C9C; }
+    body .personal {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .five {
+      font-size: 10em; }
+    body .permonth {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .grey {
+      height: 19.5em;
+      margin-left: 2.35em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .grey1 {
+      margin-right: 2.35em;
+      height: 19.5em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey1 div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .grey2 {
+      margin-right: 5em;
+      margin-left: -2.67em;
+      height: 19.5em;
+      background: #F7F7F7;
+      font-size: 1.5em; }
+    body .grey2 div {
+      font-size: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      color: grey;
+      border: solid grey 1px;
+      text-align: center; }
+    body .white2 {
+      margin-left: 3.5em;
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white2 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .white3 {
+      margin-right: 3.5em;
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white3 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .white4 {
+      margin-right: 7.5em;
+      margin-left: -4em;
+      height: 9.75em;
+      background: white;
+      border: solid grey 1px; }
+    body .white4 div {
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2em;
+      width: 4em;
+      margin: 0 auto;
+      border: solid grey 1px;
+      border-radius: 1em;
+      margin-top: 2em; }
+    body .blue {
+      margin-right: 3.5em;
+      background: #2A4A81;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .small {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .twenty {
+      font-size: 10em; }
+    body .per {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .black {
+      margin-right: 7.5em;
+      margin-left: -4em;
+      background: black;
+      height: 20em;
+      margin-top: 3em;
+      text-align: center;
+      color: white;
+      padding-top: 4em; }
+    body .pricing-box {
+      float: left;
+      display: inline-block;
+      width: 33%;
+      border: 1em solid #fff;
+      box-sizing: border-box; }
+    body .overflow {
+      overflow: hidden; }
+    body .enterprise {
+      font-size: 1.5em;
+      padding-bottom: 1em; }
+    body .forty {
+      font-size: 10em; }
+    body .month {
+      font-size: 1.5em;
+      padding-top: 1em; }
+    body .big {
+      height: 130em;
+      background: white; }
+    body .font1 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font2 {
+      text-align: center;
+      padding-top: 2em;
+      padding-left: 8.5em;
+      padding-right: 1em;
+      font-size: 1.5em;
+      color: grey; }
+    body .font3 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font4 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      padding-left: 5.5em;
+      padding-right: 1em;
+      color: grey; }
+    body .font5 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font6 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      padding-left: 6em;
+      padding-right: 1em;
+      color: grey; }
+    body .font7 {
+      text-align: center;
+      padding-top: 7em;
+      font-size: 2em;
+      word-spacing: 0.5em; }
+    body .font8 {
+      text-align: center;
+      padding-top: 2em;
+      font-size: 1.5em;
+      padding-left: 5.5em;
+      padding-right: 1em;
+      color: grey; }
+    body .black1 {
+      height: 4.75em;
+      background: black;
+      color: grey;
+      text-align: center;
+      font-size: 1.5em;
+      padding-top: 2em; }
+    body .black1 span {
+      color: white;
+      text-decoration: underline; }
+    body .text {
+      float: left;
+      width: 50%;
+      height: 25em;
+      font-size: 0.7em; }
+    body .alltext {
+      overflow: hidden;
+      border: 1em solid white; } }
